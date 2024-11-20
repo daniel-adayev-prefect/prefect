@@ -1,6 +1,5 @@
 from prefect import flow, task, runtime
 import httpx
-from geopy.geocoders import Nominatim
 import random
 from prefect.blocks.system import JSON
 from prefect.artifacts import create_markdown_artifact
