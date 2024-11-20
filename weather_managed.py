@@ -14,3 +14,4 @@ def run_pandas():
 
     # Print the first 5 lines of the DataFrame
     print(df.head())
+    return data
